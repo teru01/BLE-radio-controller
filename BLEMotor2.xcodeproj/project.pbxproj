@@ -12,8 +12,6 @@
 		C9ADB1981E8B2E0000A3C832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9ADB1961E8B2E0000A3C832 /* Main.storyboard */; };
 		C9ADB19A1E8B2E0000A3C832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9ADB1991E8B2E0000A3C832 /* Assets.xcassets */; };
 		C9ADB19D1E8B2E0000A3C832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9ADB19B1E8B2E0000A3C832 /* LaunchScreen.storyboard */; };
-		C9ADB1A81E8B2E0000A3C832 /* BLEMotor2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADB1A71E8B2E0000A3C832 /* BLEMotor2Tests.swift */; };
-		C9ADB1B31E8B2E0000A3C832 /* BLEMotor2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADB1B21E8B2E0000A3C832 /* BLEMotor2UITests.swift */; };
 		C9AE351D1E8B37020031420F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AE351C1E8B37020031420F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,11 +41,7 @@
 		C9ADB19C1E8B2E0000A3C832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9ADB19E1E8B2E0000A3C832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9ADB1A31E8B2E0000A3C832 /* BLEMotor2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEMotor2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9ADB1A71E8B2E0000A3C832 /* BLEMotor2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEMotor2Tests.swift; sourceTree = "<group>"; };
-		C9ADB1A91E8B2E0000A3C832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9ADB1AE1E8B2E0000A3C832 /* BLEMotor2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEMotor2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9ADB1B21E8B2E0000A3C832 /* BLEMotor2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEMotor2UITests.swift; sourceTree = "<group>"; };
-		C9ADB1B41E8B2E0000A3C832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9AE351C1E8B37020031420F /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				C9ADB1911E8B2DFF00A3C832 /* BLEMotor2 */,
-				C9ADB1A61E8B2E0000A3C832 /* BLEMotor2Tests */,
-				C9ADB1B11E8B2E0000A3C832 /* BLEMotor2UITests */,
 				C9ADB1901E8B2DFF00A3C832 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				C9ADB19E1E8B2E0000A3C832 /* Info.plist */,
 			);
 			path = BLEMotor2;
-			sourceTree = "<group>";
-		};
-		C9ADB1A61E8B2E0000A3C832 /* BLEMotor2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				C9ADB1A71E8B2E0000A3C832 /* BLEMotor2Tests.swift */,
-				C9ADB1A91E8B2E0000A3C832 /* Info.plist */,
-			);
-			path = BLEMotor2Tests;
-			sourceTree = "<group>";
-		};
-		C9ADB1B11E8B2E0000A3C832 /* BLEMotor2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				C9ADB1B21E8B2E0000A3C832 /* BLEMotor2UITests.swift */,
-				C9ADB1B41E8B2E0000A3C832 /* Info.plist */,
-			);
-			path = BLEMotor2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9ADB1A81E8B2E0000A3C832 /* BLEMotor2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9ADB1B31E8B2E0000A3C832 /* BLEMotor2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,11 +1,3 @@
-//
-//  SecondViewController.swift
-//  BLEMotor2
-//
-//  Created by Teruya on 2017/03/29.
-//  Copyright © 2017年 Teruya All rights reserved.
-//
-
 import UIKit
 import CoreBluetooth
 import CoreMotion
@@ -22,8 +14,6 @@ class SecondViewController: UIViewController,CBPeripheralDelegate{
     var prevPitch: Int = 40
     var tempSlider: Int = 4
     var prevSlider: Int = 4
-    
-    
     @IBOutlet weak var pitchLabel: UILabel!
     @IBOutlet weak var accelLabel: UILabel!
     @IBOutlet weak var mySlider: UISlider!{
@@ -81,9 +71,7 @@ class SecondViewController: UIViewController,CBPeripheralDelegate{
     }
     //スライダーの変化を検知
     @IBAction func changeSlider(_ sender: UISlider) {
-        let q = Int(sender.value)
-        //tempSliderが0〜8までの値になるよう四捨五入する
-        tempSlider = (sender.value-Float(q)) > 0.5 ? q+1 : q
+        tempSlider = Int(sender.value + 0.5)
         if tempSlider != prevSlider{
              accelLabel.text = String(tempSlider-4)
              print("slider:\(tempSlider)")
@@ -102,6 +90,4 @@ class SecondViewController: UIViewController,CBPeripheralDelegate{
             print("complete")
         }
     }
-    
-    
 }
